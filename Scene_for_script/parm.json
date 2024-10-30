@@ -1,24 +1,24 @@
 {
     "slope": [
 	{
-		"angle" : 2,
-		"use" : 1,
-		"invert" : 0,
-		"amount" : 1				
+		"angle" : 2, "comment":"positive or negative or 0 (flat), recommended from -10 to 10",
+		"use" : 1, "comment":"if 1 slope on",
+		"invert" : 0, "comment":"if 1 invert on",
+		"amount" : 1, "comment":"use value from 0 to 1"				
 	}
    ],
 "road": [
 			{
 				"width" : 2,
-				"length" : 1.72				
+				"length" : 1.72, "comment":"kilometers"				
 			}
    		 ],
 "export": [
 			{
-				"lowpoly" : 1,
-				"final" : 1,
-				"res" : 0.75,
-				"use_new_map" : 1				
+				"lowpoly" : 1, "comment":"if 1 export on",
+				"final" : 1,  "comment":"if 1 export on",
+				"res" : 0.75,  "comment":"final file mesh resolution, base value slightly reduced for testing",
+				"use_new_map" : 1, "comment":"if 1 the version with the old UV and the cropped map will be exported"
 			}
    		 ]
 
