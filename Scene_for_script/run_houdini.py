@@ -16,10 +16,10 @@ except hou.LoadWarning as e:
 
 import hqueue.houdini as hq 
 
-node = hq.getNode("/obj/test_landscape/topgeometry1") 
+node = hq.getNode("/obj/test_landscape/import_parms") 
 disp_node = node.displayNode() 
 disp_node.executeGraph(False, True, False)
 
-node = hq.getNode("/obj/test_landscape/topnet1") 
+node = hq.getNode("/obj/test_landscape/Export") 
 disp_node = node.displayNode() 
 disp_node.executeGraph(False, True, False)

@@ -1,8 +1,25 @@
 {
-    "biomes": [
-        {
-            "name": "5",
-            "aridity_index": 0.0
-        }
-    ]
+    "slope": [
+	{
+		"angle" : 2,
+		"use" : 1,
+		"invert" : 0,
+		"amount" : 1				
+	}
+   ],
+"road": [
+			{
+				"width" : 2,
+				"length" : 1.72				
+			}
+   		 ],
+"export": [
+			{
+				"lowpoly" : 1,
+				"final" : 1,
+				"res" : 0.75,
+				"use_new_map" : 1				
+			}
+   		 ]
+
 }
